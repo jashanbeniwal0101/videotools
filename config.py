@@ -29,7 +29,7 @@ ADMINS = list(map(int, os.getenv("ADMINS", str(OWNER_ID)).split()))
 # =========================
 # DATABASE SETTINGS
 # =========================
-MONGO_URI = os.getenv("MONGO_URI", "mongodb://localhost:27017")
+MONGO_URI = os.getenv("MONGO_URI", "mongodb+srv://azadmalakiya00_db:azadmalakiya_120@cluster0.toxfuht.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = os.getenv("DATABASE_NAME", "MediaBotDB")
 
 # =========================
